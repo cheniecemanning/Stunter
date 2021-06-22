@@ -18,6 +18,7 @@ I chose this directory structure as it allows all the code that belongs to a com
 
 ## Next Steps and improvements:
 
+- Change card style onClick()
 - Utilise variables for styling
 - Make responsive
 - More exciting additions such as Stunter contact details and 'Email a stunter'
