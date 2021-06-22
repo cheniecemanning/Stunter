@@ -20,7 +20,7 @@ const DragDropCards = () => {
     state.zone = "selected";
     e.target.style.background = "rgba(143, 127, 96, 0.95)";
     dragNode.current = e.target;
-    dragNode.current.addEventListener("dragend", handleDragDrop);
+    dragNode.current.addEventListener("dragend", handleClickDragDrop);
   };
 
   const handleDragEnter = (e) => {
@@ -34,7 +34,7 @@ const DragDropCards = () => {
     e.target.style.background = "transparent";
   };
 
-  const handleDragDrop = () => {
+  const handleClickDragDrop = () => {
     dragStunter.current === "like" || dragStunter.current === "liked"
       ? dispatch(
           { type: "STUNTER_LIKED", payload: true },
@@ -52,7 +52,7 @@ const DragDropCards = () => {
     stunters.pop();
     currentStunter.current = stunters[stunters.length - 1];
     stunters.length > 0 && dragNode.current
-      ? dragNode.current.removeEventListener("dragend", handleDragDrop)
+      ? dragNode.current.removeEventListener("dragend", handleClickDragDrop)
       : console.log(null);
 
     dispatch({ type: "IS_DRAGGING", payload: false });
@@ -66,7 +66,7 @@ const DragDropCards = () => {
   const handleOnClick = (e) => {
     dispatch({ type: "IN_DROPZONE", payload: dragStunter.current });
     dragStunter.current = e.target.id;
-    return handleDragDrop();
+    return handleClickDragDrop();
   };
 
   const Stunters = stunters.map((stunter) => (
@@ -79,7 +79,7 @@ const DragDropCards = () => {
       onDragStart={(e) => {
         handleDragStart(e, stunter.firstName);
       }}
-      onDrop={handleDragDrop}
+      onDrop={handleClickDragDrop}
     >
       <p>{state.zone}</p>
     </Card>
