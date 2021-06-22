@@ -1,12 +1,13 @@
 import React, { useContext } from "react";
 import StunterStateContext from "../../context/StunterStateContext";
-import { Card, CardTitle, CardSkills } from "./styles";
+import { Card, CardTitle, CardSkills, NoSaved } from "./styles";
 import { Container, Row, Col } from "reactstrap";
 
 const SavedStunters = () => {
   const state = useContext(StunterStateContext);
   const { savedStunters } = state;
 
+  console.log(savedStunters);
   const show = savedStunters.map((stunter) => (
     <Row className="mt-3" key={stunter.lastName}>
       <Col>
@@ -20,11 +21,22 @@ const SavedStunters = () => {
       </Col>
       <Col>
         <CardTitle> {stunter.firstName}</CardTitle>
-        <CardSkills><p>{stunter.skills.join(' - ')}</p></CardSkills>
+        <CardSkills>
+          <p>{stunter.skills.join(" - ")}</p>
+        </CardSkills>
       </Col>
     </Row>
   ));
-  return <Container>{show}</Container>;
+
+  return (
+    <Container>
+      {savedStunters.length === 0 ? (
+        <NoSaved>Go back and "Like" a Stunter to have them show up here :)</NoSaved>
+      ) : (
+        show
+      )}
+    </Container>
+  );
 };
 
 export default SavedStunters;

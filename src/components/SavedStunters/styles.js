@@ -32,7 +32,7 @@ export const CardTitle = styled.p`
 
 export const CardSkills = styled.div`
   text-align: center;
-  
+
   h3 {
     font-family: "Nunito Sans";
     text-transform: uppercase;
@@ -44,4 +44,9 @@ export const CardSkills = styled.div`
     font-weight: bold;
     font-size: 35px;
   }
+`;
+
+export const NoSaved = styled.div`
+font-family: "Playfair Display";
+  font-size: 95px;
 `;
