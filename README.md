@@ -3,7 +3,22 @@
 Find your perfect stunt performer!
 Just drag the cards to "like" or "dislike" a performer, you can then view all your liked performers(Stunters) by pressing the "Show liked performers" button.
 
-This project was made using the HTML drag-and-drop API and React Hooks.
+This project was made using the HTML drag-and-drop API and React Hooks. 
+
+## Directory Layout
+
+components
+    └── StunterProfile
+        ├── StunterProfile.jsx 
+        ├── package.json
+        └── styles.js
+I chose this directory structure as it allows all the code that belongs to a component to be accessible within a single folder and makes it easily extractable.The package.json sets the main property to the component entry point, allowing it to be imported like `import StunterProfile from 'components/StunterProfile'` instead of `import FilterSlider from 'components/StunterProfile/StunterProfile'`.
+
+Next Steps and improvements:
+
+- Utilise variables for styling
+- Make responsive
+- More exciting additions such as Stunter contact details and 'Email a stunter'
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
