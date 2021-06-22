@@ -3,6 +3,8 @@
 Find your perfect stunt performer!
 Just drag the cards to "like" or "dislike" a performer, you can then view all your liked performers(Stunters) by pressing the "Show liked performers" button.
 
+This project was made using the HTML drag-and-drop API and React Hooks.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -34,4 +36,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### Initial Design
 
-![alt text](src/assets/InitialDesign.png)
+![alt text](https://github.com/cheniecemanning/Stunter/blob/6474966dc906189e96c7ab61aec983490fcc4aa9/src/assets/initalDesign.png)
