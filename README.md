@@ -23,9 +23,9 @@ I chose this directory structure as it allows all the code that belongs to a com
 - More exciting additions such as Stunter contact details and 'Email a stunter'
 - Implement a DnD library
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
