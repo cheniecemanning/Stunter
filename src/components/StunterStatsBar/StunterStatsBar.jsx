@@ -27,11 +27,11 @@ const StunterStatsBar = () => {
               <StatsBarDesc>Age</StatsBarDesc>
             </Col>
             <Col>
-              <StatsBarTitle>{currentStunter.height}</StatsBarTitle>
+              <StatsBarTitle>{currentStunter.height}<span>CM</span></StatsBarTitle>
               <StatsBarDesc>Height</StatsBarDesc>
             </Col>
             <Col>
-              <StatsBarTitle>{currentStunter.weight}</StatsBarTitle>
+              <StatsBarTitle>{currentStunter.weight}<span>KG</span></StatsBarTitle>
               <StatsBarDesc>Weight</StatsBarDesc>
             </Col>
           </Row>

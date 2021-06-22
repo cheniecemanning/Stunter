@@ -10,6 +10,10 @@ export const StatsBar = styled.section`
     font-weight: bold;
     text-transform: uppercase;
   }
+
+  span {
+    font-size: 25px;
+  }
 `;
 
 export const StatsBarTitle = styled.p`
