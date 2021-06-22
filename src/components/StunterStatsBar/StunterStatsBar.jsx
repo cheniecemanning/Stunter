@@ -13,7 +13,7 @@ const StunterStatsBar = () => {
   const { currentStunter } = state;
   // currentStunter ? console.log(currentStunter.skills): 0;
   return currentStunter ? (
-    <Container key={currentStunter.lastName}>
+    <Container key={currentStunter.lastName} data-testid="skills">
       <Row className="mt-5">
         <StatsBar>
           <h1>Stats</h1>

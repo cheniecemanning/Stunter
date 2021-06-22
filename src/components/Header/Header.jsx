@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import StunterStateContext from "../../context/StunterStateContext";
 import StunterDispatchContext from "../../context/StunterDispatchContext";
 
-import { Wrapper, Logo, Description } from "./styles";
+import { Logo, Description } from "./styles";
 import { ShowLikedBtn } from "../Buttons/Buttons";
 import { Container, Row, Col } from "reactstrap";
 
