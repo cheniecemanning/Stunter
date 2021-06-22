@@ -16,11 +16,12 @@ components
   ```
 I chose this directory structure as it allows all the code that belongs to a component to be accessible within a single folder and makes it easily extractable.The package.json sets the main property to the component entry point, allowing it to be imported like `import StunterProfile from 'components/StunterProfile'` instead of `import FilterSlider from 'components/StunterProfile/StunterProfile'`.
 
-##Next Steps and improvements:
+## Next Steps and improvements:
 
 - Utilise variables for styling
 - Make responsive
 - More exciting additions such as Stunter contact details and 'Email a stunter'
+- Implement a DnD library
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
