@@ -1,7 +1,5 @@
 import styled from "styled-components/macro";
 
-
-
 export const Logo = styled.h1`
   font-family: "Playfair Display", serif;
   font-size: 64px;

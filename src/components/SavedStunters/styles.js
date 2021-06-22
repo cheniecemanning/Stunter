@@ -1,17 +1,15 @@
 import styled from "styled-components/macro";
 
 export const Card = styled.div`
+  align-items: center;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
     url(${(props) => props.background});
   background-size: 100%;
-  text-align: center;
-
-  width: 350px;
-  height: 350px;
-  perspective: 1000px;
   display: flex;
-  align-items: center;
+  height: 350px;
   justify-content: center;
+  text-align: center;
+  width: 350px;
   z-index: 100;
 
   p {
@@ -22,11 +20,10 @@ export const Card = styled.div`
   }
 
   img {
-    width: 350px;
     height: auto;
+    width: 350px;
   }
 `;
-
 
 export const CardTitle = styled.p`
   font-family: "Playfair Display";
@@ -35,6 +32,7 @@ export const CardTitle = styled.p`
 
 export const CardSkills = styled.div`
   text-align: center;
+  
   h3 {
     font-family: "Nunito Sans";
     text-transform: uppercase;
