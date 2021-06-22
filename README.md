@@ -36,4 +36,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### Initial Design
 
-![alt text](https://github.com/cheniecemanning/Stunter/blob/6474966dc906189e96c7ab61aec983490fcc4aa9/src/assets/initalDesign.png)
+![Initial visual design of the project](https://github.com/cheniecemanning/Stunter/blob/6474966dc906189e96c7ab61aec983490fcc4aa9/src/assets/initalDesign.png)
+
+![Initial Design of the events in the project](https://user-images.githubusercontent.com/26623868/122906779-6e823600-d34a-11eb-98b9-d39acc17d48b.png)
+
