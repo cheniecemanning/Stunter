@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Playfair+Display&display=swap");
+body {
+  background-color: #F9F1E7 !important;
+}
+.App {
+  text-align: center;
+  padding: 2em;
+}
+
+

@@ -1,0 +1,8 @@
+{
+  "short_name": "Stunter",
+  "name": "Stunter - Find your perfect stunt performer",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#22252B",
+  "background_color": "#F9F1E7"
+}
