@@ -78,9 +78,13 @@ IF released/dropped the card must move off the screen
 Core challenges:
 
 • Creating a data store with an array of ‘items’ to be displayed in the UI.
+
 • Displaying the stacked cards on the screen.
+
 • Implement a mechanism for dragging and dropping an item.
+
 • Animating or clearing the card from the screen on release of a drag.
+
 • Updating the data layer with the user’s choice.
 
 ## Available scripts
