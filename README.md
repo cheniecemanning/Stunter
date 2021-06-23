@@ -5,6 +5,25 @@ Just drag the cards to "like" or "dislike" a performer, you can then view all yo
 
 This project was made using the HTML drag-and-drop API and React Hooks.
 
+  * [Quick start](#quick-start)
+    + [How to install](#how-to-install)
+  * [Directory layout](#directory-layout)
+  * [User stories](#user-stories)
+  * [Initial design](#initial-design)
+    + [Diagram](#diagram)
+    + [Visual mock-up](#visual-mock-up)
+    + [Considerations](#considerations)
+      - [Semantic HTML](#semantic-html)
+      - [Accessibility](#accessibility)
+  * [Technologies](#technologies)
+  * [Specification](#specification)
+  * [Available scripts](#available-scripts)
+    + [`npm install`](#-npm-install-)
+    + [`npm start`](#-npm-start-)
+    + [`npm test`](#-npm-test-)
+    + [`npm build`](#-npm-build-)
+  * [Next steps and improvements](#next-steps-and-improvements)
+
 ## Quick start
 
 ### How to install
