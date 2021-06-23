@@ -11,7 +11,6 @@ import { Container, Row, Col } from "reactstrap";
 const StunterStatsBar = () => {
   const state = useContext(StunterStateContext);
   const { currentStunter } = state;
-  // currentStunter ? console.log(currentStunter.skills): 0;
   return currentStunter ? (
     <Container key={currentStunter.lastName} data-testid="skills">
       <Row className="mt-5">

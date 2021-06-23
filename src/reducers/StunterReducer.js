@@ -1,8 +1,6 @@
 import "./StunterReducerState";
 
 const stunterReducer = (state, action) => {
-  // console.log("Reducer Action", action);
-
   switch (action.type) {
     case "SET_CURRENT_STUNTER":
       let SET_CURRENT_STUNTER = { ...state };
@@ -39,7 +37,7 @@ const stunterReducer = (state, action) => {
       let SAVED_STUNTERS = { ...state };
       SAVED_STUNTERS.showSaved = action.payload;
       return SAVED_STUNTERS;
-      
+
     default:
       throw new Error("Unexpected action");
   }
