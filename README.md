@@ -5,6 +5,8 @@ Just drag the cards to "like" or "dislike" a performer, you can then view all yo
 
 This project was made using the HTML drag-and-drop API and React Hooks.
 
+## Table of contents
+
   * [Quick start](#quick-start)
     + [How to install](#how-to-install)
   * [Directory layout](#directory-layout)
