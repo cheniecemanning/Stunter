@@ -61,11 +61,11 @@ Displays design decisions and assumptions about the users needs.
 
 ## Technologies:
 
-JavaScript
-HTML Drag and Drop API - For the drag and drop functionality
-React - JavaScript library
-React Testing Library - Testing tool for checking the outputted document
-React-Bootstrap - For visual styling
+- JavaScript
+- HTML Drag and Drop API - For the drag and drop functionality
+- React - JavaScript library
+- React Testing Library - Testing tool for checking the outputted document
+- React-Bootstrap - For visual styling
 
 ## Specification:
 
