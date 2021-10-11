@@ -95,7 +95,6 @@ const DragDropCards = () => {
           payload: currentStunter.current,
         })
       : console.log(null);
-
     return currentStunter.current;
   }, [state.stunters, dispatch, stunters.length]);
 
@@ -103,15 +102,17 @@ const DragDropCards = () => {
     <Container>
       <Row>
         <Col sm="4">
-          <ButtonWrapper
-            id="dislike"
-            onDragEnterCapture={handleDragEnter}
-            onDragLeave={handleDragLeave}
-          >
-            <DislikeButton id="disliked" onClick={handleOnClick}>
-              &#215;
-            </DislikeButton>
-          </ButtonWrapper>
+          {stunters.length > 0 ? (
+            <ButtonWrapper
+              id="dislike"
+              onDragEnterCapture={handleDragEnter}
+              onDragLeave={handleDragLeave}
+            >
+              <DislikeButton id="disliked" onClick={handleOnClick}>
+                &#215;
+              </DislikeButton>
+            </ButtonWrapper>
+          ) : null}
         </Col>
         <Col sm="4" className="cards">
           <PseudoCardOne />
@@ -119,15 +120,17 @@ const DragDropCards = () => {
           <div data-testid="cardStack">{Stunters}</div>
         </Col>
         <Col sm="4">
-          <ButtonWrapper
-            id="like"
-            onDragEnterCapture={handleDragEnter}
-            onDragLeave={handleDragLeave}
-          >
-            <LikeButton id="liked" onClick={handleOnClick}>
-              &#x2713;
-            </LikeButton>
-          </ButtonWrapper>
+          {stunters.length > 0 ? (
+            <ButtonWrapper
+              id="like"
+              onDragEnterCapture={handleDragEnter}
+              onDragLeave={handleDragLeave}
+            >
+              <LikeButton id="liked" onClick={handleOnClick}>
+                &#x2713;
+              </LikeButton>
+            </ButtonWrapper>
+          ) : null}
         </Col>
       </Row>
     </Container>

@@ -7,7 +7,6 @@ const SavedStunters = () => {
   const state = useContext(StunterStateContext);
   const { savedStunters } = state;
 
-  console.log(savedStunters);
   const show = savedStunters.map((stunter) => (
     <Row className="mt-3" key={stunter.lastName}>
       <Col>
