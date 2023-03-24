@@ -44,7 +44,7 @@ components
         ├── package.json
         └── styles.js
   ```
-I chose this directory structure as it allows all the code that belongs to a component to be accessible within a single folder and makes it easily extractable.The package.json sets the main property to the component entry point, allowing it to be imported like `import StunterProfile from 'components/StunterProfile'` instead of `import FilterSlider from 'components/StunterProfile/StunterProfile'`.
+I chose this directory structure as it allows all the code that belongs to a component to be accessible within a single folder and makes it easily extractable.The package.json sets the main property to the component entry point, allowing it to be imported like `import StunterProfile from 'components/StunterProfile'` instead of `import StunterProfile from 'components/StunterProfile/StunterProfile'`.
 
 ## User stories
 
